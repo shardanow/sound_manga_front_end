@@ -1,9 +1,29 @@
-/* @import 'variables';
- */
+@import 'variables';
+
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: blue;
+    background-color: $blue;
     height: 70px;
+}
+
+.header_titleName,
+.header_backIcon,
+.header_userIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_titleName {
+    text-align: center;
+    width: 50%;
+    font-size: 1rem;
+    color: $light;
+}
+
+.header_backIcon,
+.header_userIcon {
+    width: 20%;
 }

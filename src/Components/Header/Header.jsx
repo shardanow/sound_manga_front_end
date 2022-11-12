@@ -1,7 +1,7 @@
-import React from "react";
-import { Value } from "sass";
+import React from "react";  
 import { BackIcon } from "./BackIcon.tsx";
 import { HeaderTitleName } from "./HeaderTitleName";
+import { HeaderUserIcon } from "./HeaderUserIcon";
 
 
 
@@ -14,7 +14,7 @@ export default function Header(props) {
         <div className="header">
         <BackIcon/>
         <HeaderTitleName/>
-        {/* <img src="12"></img> */}
+        <HeaderUserIcon/>
         </div>
     )
 }
