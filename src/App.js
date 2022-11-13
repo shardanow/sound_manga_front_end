@@ -1,6 +1,6 @@
 import React from 'react';
 import './Content/Styles/General.scss';
-import MangaTilePage from './Pages/MangaTilePage/MangaTilePage';
+import MangaTilePage from './Pages/MangaTilePage';
 
 function App() {
   return (

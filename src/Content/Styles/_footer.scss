@@ -1,0 +1,9 @@
+@import 'variables';
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $blue;
+    height: 70px;
+}

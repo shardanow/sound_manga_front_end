@@ -1,0 +1,64 @@
+@import 'variables';
+
+.mangaTilePage {
+    margin: 0 auto;
+    background-color: black;
+}
+
+.contentContainer {
+    padding: 38px 19px;
+    height: 612px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.innerWrapper {
+    height: 495px;
+    background-color: $special;
+    border-radius: 8px;
+}
+
+.mainImg {
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 38px;
+    border-radius: 6px 6px 0 0;
+}
+
+.mainImg_wrapper_img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.mainImg_wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.year-rating,
+.restr-vol,
+.statuses{
+    height: 10%;
+    background-color: rgb(187, 160, 160);
+}
+
+.year-rating,
+.restr-vol{
+
+}
+
+
+
