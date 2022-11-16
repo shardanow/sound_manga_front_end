@@ -27,3 +27,19 @@
 .header_userIcon {
     width: 20%;
 }
+
+.header_backIcon_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.header_backIcon_btn:hover{
+    opacity: 70%;
+}
+
+.header_backIcon_btn:active{
+    opacity: 50%;
+}

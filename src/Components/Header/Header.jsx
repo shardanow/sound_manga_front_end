@@ -13,7 +13,7 @@ export default function Header(props) {
     return (
         <div className="header">
         <BackIcon/>
-        <HeaderTitleName/>
+        <HeaderTitleName mangaName="Some Manga Title Here"/>
         <HeaderUserIcon/>
         </div>
     )

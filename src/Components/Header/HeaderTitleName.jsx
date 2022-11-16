@@ -1,9 +1,9 @@
 import React from "react";
 
-export function HeaderTitleName() {
+export function HeaderTitleName(props) {
     return(
         <div className="header_titleName">
-            Some Manga Tile Here
+            <p>{props.mangaName}</p>
         </div>
     )
 }
